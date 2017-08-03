@@ -7,8 +7,8 @@
 <%
 	
 	Purchase purchase = (Purchase)request.getAttribute("purchase");
-	User buyer = (User)purchase.getBuyer();
-	Product product = (Product)purchase.getPurchaseProd();
+	User buyer =purchase.getBuyer();
+	Product product =purchase.getPurchaseProd();
 
 %>
 

@@ -17,7 +17,7 @@
         <dependent-module archiveName="taglibs-standard-spec-1.2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-spec-1.2.5/taglibs-standard-spec-1.2.5">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="context-root" value="03.Model2MVCShop(퍼쳐스완료)_ko"/>
         <property name="java-output-path" value="/03.Model2MVCShop(퍼쳐스완료) ko/build/classes"/>
+        <property name="context-root" value="/"/>
     </wb-module>
 </project-modules>

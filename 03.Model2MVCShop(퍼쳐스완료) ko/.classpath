@@ -13,5 +13,16 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.springsource.org.apache.commons.dbcp-1.2.2.osgi"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.springsource.org.apache.commons.logging-1.1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.springsource.org.apache.commons.pool-1.5.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.springsource.org.apache.log4j-1.2.15"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.springsource.org.aspectj.weaver-1.6.8.RELEASE"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.springsource.org.junit-4.7.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mybatis-3.2.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mybatis-spring-1.2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ojdbc14"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-aop-4.0.9.RELEASE"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

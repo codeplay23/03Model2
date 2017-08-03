@@ -16,7 +16,7 @@ public class UpdateTranCodeAction extends Action {
 
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
-
+            System.out.println("¿©±âÂë?");
 			PurchaseService service = new PurchaseServiceImp();
 			Purchase purchase = service.getPurchase(Integer.parseInt(request.getParameter("tranNo")));
 			purchase.setTranCode(request.getParameter("tranCode"));

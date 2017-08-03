@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%@page import="com.model2.mvc.service.domain.Product"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <%-- <%@ page import="com.model2.mvc.service.domain.Product"%> --%>
@@ -15,7 +16,7 @@
 
 <link rel="stylesheet" href="/css/admin.css" type="text/css">
 
-<title>Insert title here</title>
+
 </head>
 
 <body bgcolor="#ffffff" text="#000000">
@@ -131,6 +132,8 @@
 
 		<table border="0" cellspacing="0" cellpadding="0">
 			<tr>
+				
+				
 				<%-- <%if(request.getParameter("menuCondition") == null){%> --%>
 				<c:if test="${param.menuCondition eq null }">
 				<td width="17" height="23">
@@ -138,12 +141,13 @@
 				</td>
 					<td background="/images/ct_btnbg02.gif" class="ct_btn01" style="padding-top: 3px;">
 					<%-- <a href="/addPurchaseView.do?prod_no=<%=product.getProdNo()%>">구매</a> --%>
-					<a href="/addPurchaseView.do?prod_no=${product.prodNo }">구매</a>
-				</td>				
+					<a href="/addPurchaseView.do?prod_no= ${product.prodNo }">구매</a>
+				</td>			
 				<td width="14" height="23">
 					<img src="/images/ct_btnbg03.gif" width="14" height="23">
 				</td>
 				</c:if>
+				
 				<%-- <%} %>		 --%>
 				<td width="30"></td>
 		
